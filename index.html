@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Super Heroes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Heroes</h1>
+
+        <!-- Rendered Buttons will get Dumped Here  -->
+       
+        <div class="row">
+ <div id="buttons-view" class="col-lg-9"></div>
+            <div class="col-lg-3">
+                <form id="hero-form">
+                    <label for="hero-input">Add a Hero</label>
+                    <input type="text" id="hero-input">
+                    <br>
+
+                    <!-- Button triggers new hero to be added -->
+                    <input id="add-hero" class="btn btn-outline-warning" type="submit" value="Add a hero!">
+                </form>
+            </div>
+            <div class="row">
+               <div id="gifs-appear-here" class="col-lg-9">
+
+                </div> 
+            </div>
+            
+
+        </div>
+
+
+
+        <!-- heroes will Get Dumped Here -->
+        <div id="buttons-view"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="./assets/javascript/app.js">
+
+            
+        </script>
+  
+</body>
+
+</html>
