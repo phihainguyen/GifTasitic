@@ -83,7 +83,7 @@ $(document).ready(function(){
  }
 
  // This function handles events where a hero button is clicked
- $("#add-hero").on("click touchstart", function (event) {
+ $("#add-hero").on("click", function (event) {
      
     event.preventDefault();
      // This line grabs the input from the textbox
@@ -100,8 +100,8 @@ if(hero===""){
      
  });
 
- // Adding a click touchstart event listener to all elements with a class of "hero-btn"
- $(document).on("click touchstart", ".hero-btn", displayheroInfo);
+ // Adding a click event listener to all elements with a class of "hero-btn"
+ $(document).on("click", ".hero-btn", displayheroInfo);
  
 
  // Calling the renderButtons function to display the intial buttons
