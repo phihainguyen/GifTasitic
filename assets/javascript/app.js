@@ -10,7 +10,7 @@ $(document).ready(function () {
         $("#gifs-appear-here").empty();
 
         var hero = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + hero + "&limit=9&api_key=s4iy00EOrGdwBmhxLXvv0bm8b41bHS93";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + hero + "&limit=9&api_key=s4iy00EOrGdwBmhxLXvv0bm8b41bHS93";
 
 
         // Creating an AJAX call for the specific hero button being clicked
